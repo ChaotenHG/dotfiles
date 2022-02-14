@@ -8,7 +8,7 @@ function run {
 }
 
 # run hotkey daemon
-run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
+run sxhkd &
 
 $HOME/scripts/display.sh &
 $HOME/.config/polybar/launch.sh &
